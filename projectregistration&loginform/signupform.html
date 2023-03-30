@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+	<title>Sign-up & Login form</title>
+	<link rel="stylesheet" type="text/css" href="w3.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="test.js"></script>
+	
+	
+</head>
+<body>
+	<div class="form w3-round-xlarge">
+		<h1>Registration Form</h1>
+		<form class="table" name="myform" onclick=validation()>
+			<table class="w3-table-all">
+				<tr>
+					<td>Name:<font color="red">*</font>
+					</td>
+					<td>
+						<input type="text" placeholder="your name" required name="t1">
+						
+						
+					</td>
+				</tr>
+				<tr>
+					<td>Date of Birth:<font color="red">*</font>
+					</td>
+					<td>
+						<input type="date" required>
+					</td>
+				</tr>
+				<tr>
+					<td>Email:<font color="red">*</font>
+					</td>
+					<td>
+						<input type="email" required>
+					</td>
+				</tr>
+				<tr>
+					<td>Father's name:
+					</td>
+					<td>
+						<input type="text" placeholder="father name" required>
+						
+					</td>
+				</tr>
+				<tr>
+					<td>Mother's name:
+					</td>
+					<td>
+						<input type="text" placeholder="mother name" required>
+						
+					</td>
+				</tr>
+				<tr>
+					<td>Gender:<font color="red">*</font>
+					</td>
+					<td>
+						<input type="radio" name="gender" value="male" required>Male
+						<input type="radio" name="gender" value="female" required>Female
+					</td>
+				</tr>
+				<tr>
+					<td>Nationality:<font color="red">*</font>
+					</td>
+					<td>
+						<input type="text" required>
+					</td>
+				</tr>
+				<tr>
+					<td>Home Address:
+					</td>
+					<td>
+						<input type="text" placeholder="address" required>
+						
+					</td>
+				</tr>
+				<tr>
+					<td>Telephone-Mobile:
+					</td>
+					<td>
+						<input type="text" required>
+					</td>
+				</tr>
+				<tr>
+					<td>Password:<font color="red">*</font>
+					</td>
+					<td>
+						<input type="password" placeholder="Aky@1234" pattern="(?=.*\d)(?=.*[A-Z])(?=.*[a-z]).{6,}" required name="t2">
+					</td>
+				</tr>
+				<tr>
+					<td>Confirm Password:<font color="red">*</font>
+					</td>
+					<td>
+						<input type="password" placeholder="Aky@1234" pattern="(?=.*\d)(?=.*[A-Z])(?=.*[a-z]).{6,}" required name="t3">
+					</td>
+				</tr>
+				
+			</table>
+
+			<center><button class="w3-btn w3-ripple"><a href="verify.html">REGISTER</a></button>
+			<button class="w3-btn w3-ripple">RESET</button>
+			<button class="w3-btn w3-ripple"><a href="signinform.html">NEXT</a></button></center>
+			
+						
+		</form>
+	</div>
+	
+	
+		
+</body>
+
+
+
+
+
+
+
+
+</html>
